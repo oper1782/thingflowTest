@@ -20,7 +20,6 @@ import IssueList from '../components/common/IssueList';
 import useIssueStore, {IssueDispatch} from '../useIssueStore';
 
 const octokit = new Octokit({
-  auth: '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',
 });
 
 const PER_PAGE = 20;
