@@ -11,7 +11,7 @@ const IssueDetailPage = () => {
   const {title, data} = route.params;
 
   return (
-    <SafeAreaView style={{flex: 1}}>
+    <SafeAreaView style={{flex: 1,backgroundColor: 'white'}}>
       <BackHeader title={title} />
       {/* <ScrollView> */}
       <View style={{flexDirection: 'row', alignItems: 'center'}}>
